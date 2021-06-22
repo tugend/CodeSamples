@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using CancellationTokenSamples.Domain;
+using Domain.AdaptivePayments.DetailedPayments;
+using Domain.AdaptivePayments.ShallowPayments;
 
-namespace ApiControllersInDotNet
+namespace Domain.AdaptivePayments
 {
     public class AdaptivePaymentRepository
     {

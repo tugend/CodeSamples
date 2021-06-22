@@ -1,4 +1,7 @@
-﻿namespace ApiControllersInDotNet
+﻿using Domain.AdaptivePayments.DetailedPayments;
+using Domain.AdaptivePayments.ShallowPayments;
+
+namespace Domain.AdaptivePayments
 {
     public class Payment
     {

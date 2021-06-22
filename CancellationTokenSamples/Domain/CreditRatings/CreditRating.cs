@@ -1,4 +1,4 @@
-﻿namespace CancellationTokenSamples.Domain
+﻿namespace Domain.CreditRatings
 {
     public class CreditRating
     {

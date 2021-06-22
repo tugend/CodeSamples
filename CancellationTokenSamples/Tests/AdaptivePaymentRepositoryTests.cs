@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using ApiControllersInDotNet;
+using Domain.AdaptivePayments;
 using Xunit;
 
-namespace CancellationTokenSamples.Tests
+namespace ApiControllers
 {
     public class AdaptivePaymentRepositoryTests
     {

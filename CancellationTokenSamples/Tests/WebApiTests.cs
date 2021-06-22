@@ -4,16 +4,16 @@ using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
+using ApiControllers.TestHelpers.Builders;
+using ApiControllers.TestHelpers.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Testing;
-using SecureWebApi.Tests.TestHelpers.Builders;
-using SecureWebApi.Tests.TestHelpers.Extensions;
-using CancellationTokenSamples.WebApi;
+using WebApi;
 using Xunit;
 using static System.Threading.CancellationToken;
 
 
-namespace CancellationTokenSamples.Tests
+namespace ApiControllers
 {
     public class WebApiTests : IClassFixture<WebApplicationFactory<Startup>>
     {

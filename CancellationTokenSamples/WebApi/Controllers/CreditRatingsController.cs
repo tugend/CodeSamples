@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using CancellationTokenSamples.Domain;
+using Domain.CreditRatings;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CancellationTokenSamples.WebApi.Controllers
+namespace WebApi.Controllers
 {
     [ApiController]
     [Route("credit-ratings")]

@@ -3,10 +3,10 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using CancellationTokenSamples.Domain;
+using Domain.Payments;
 using Xunit;
 
-namespace CancellationTokenSamples.Tests
+namespace ApiControllers
 {
     public class CancellationTokenTests
     {

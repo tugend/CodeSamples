@@ -1,10 +1,9 @@
 ﻿using System;
-using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using static System.Threading.Tasks.Task;
 
-namespace CancellationTokenSamples.Domain
+namespace Domain.CreditRatings
 {
     public class BottleneckRepository
     {

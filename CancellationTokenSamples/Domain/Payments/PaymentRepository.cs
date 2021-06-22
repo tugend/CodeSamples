@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CancellationTokenSamples.Domain
+namespace Domain.Payments
 {
     public class PaymentRepository
     {

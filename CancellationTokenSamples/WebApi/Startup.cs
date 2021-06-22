@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CancellationTokenSamples.WebApi
+namespace WebApi
 {
     public class Startup
     {

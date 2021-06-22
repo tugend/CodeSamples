@@ -1,4 +1,4 @@
-﻿namespace CancellationTokenSamples.Domain
+﻿namespace Domain.Payments
 {
     public class Payment
     {

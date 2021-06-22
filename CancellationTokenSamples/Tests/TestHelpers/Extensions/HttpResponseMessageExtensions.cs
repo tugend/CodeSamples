@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Xunit;
 
-namespace SecureWebApi.Tests.TestHelpers.Extensions
+namespace ApiControllers.TestHelpers.Extensions
 {
     public static class HttpResponseMessageExtensions
     {
